@@ -21,7 +21,7 @@ public class ConexionSQLITE extends SQLiteOpenHelper {
     ArrayList<Dto> articulosList;
     ArrayList<String> listaArticulos;
 
-    public ConexionSQLITE(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
+    public ConexionSQLITE(@Nullable Context context) {
         super(context, "administracion.db", null, 1);
     }
 
