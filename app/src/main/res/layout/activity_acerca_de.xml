@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".AcercaDe">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="#fff">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autora de la app:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="49dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isaura Mariela Castro Sánchez"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="49dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seccion:"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="49dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sis 22A"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="49dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

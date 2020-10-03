@@ -238,7 +238,7 @@ public class ConexionSQLITE extends SQLiteOpenHelper {
         try {
             int codigo = datos.getCodigo();
             Cursor fila = bd().rawQuery("Select * from articulos where codigo="+codigo+"", null);
-            if (fila.moveToFirst() == true) {
+            if (fila.moveToFirst()==true) {
                 datos.setCodigo(Integer.parseInt(fila.getString(0)));
                 datos.setDescripcion(fila.getString(1));
                 datos.setPrecio(Double.parseDouble(fila.getString(2)));
@@ -275,8 +275,7 @@ public class ConexionSQLITE extends SQLiteOpenHelper {
                 });
                 AlertDialog dialog = builder.create();
 
-                dialog.show
-                        ();
+                dialog.show();
             } else {
                 Toast.makeText(context, "No hay resultados encontrados para la busqueda especificada.", Toast.LENGTH_SHORT).show();
             }
